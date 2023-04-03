@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="6.3.xsl" type="text/xsl"?>
+<Curriculum>
+    <Nombre>Alejandro Manuel</Nombre>
+    <Apellidos>Baños Ogando</Apellidos>
+    <Tlf>6987325148</Tlf>
+    <Email>A20AlejandroBO@iessanclemente.net</Email>
+    <Titulo centro="Universidad de Santiago" año="2020">ADE</Titulo>
+    <Experiencia empresa="COCOM" años="2021-2021">Programador</Experiencia>
+    <Experiencia empresa="Ozona Consulting" años="2021-2023">Programador</Experiencia>
+    <Experiencia empresa="Indra" años="2023-presente">Programador</Experiencia>
+</Curriculum>

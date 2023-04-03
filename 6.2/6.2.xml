@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="6.2.xsl" type="text/xsl"?>
+<receta nombre="Fabada Asturiana">
+    <ingrediente nombre="Fabes"></ingrediente>
+    <ingrediente nombre="Panceta curada asturiana"></ingrediente>
+    <ingrediente nombre="Chorizo asturiana"></ingrediente>
+    <ingrediente nombre="Morcilla asturiana"></ingrediente>
+    <ingrediente nombre="Hueso de jamón"></ingrediente>
+    <ingrediente nombre="Azafrán"></ingrediente>
+</receta>
