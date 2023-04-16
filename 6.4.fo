@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<foo:root xmlns:fo="https://www.w3.org/1999/XSL/Format">
+    <fo:layout-master-set>
+        <!--Tamaño de la pagina-->
+        <fo:simple-page-master master-name="A5" page-height="9cm" page-width="20cm" margin-top="1cm" margin-botton="1cm" margin-left="2cm" margin-right="2cm">
+            <fo:region-body margin-top="1cm"/>
+            <fo:region-before extent="3cm"/>
+            <fo:region-after extent="1cm"/>
+        </fo:simple-page-master>
+    </fo:layout-master-set>
+    <!--Pgina-->
+    <fo:page-sequence master-reference="A5">
+        <!--Encabezado-->
+        <fo:static-content flow-name="xsl-region-before">
+            <fo:block text-align="center" font-size="10pt" line-height="20pt" color="DAA520">Nos hace mucha ilusión compartir con vosotros este dia tan especial</fo:block>
+        </fo:static-content>
+        <fo:flow flow-name="xsl-region-body">
+            <!--Titulo de la seccion.-->
+            <fo:block font-size="18pt" line-height="30pt" color="#FFD700" text-align="center" padding-top="2pt">Julieta y Romeo</fo:block>
+            <!--Descripcion-->
+            <fo:block font-size="10pt" line-heigfht="15pt" text-align="left" margin-top="20pt" color="#F0E68C">El dia 20 de junio</fo:block>
+            <fo:block font-size="10pt" line-heigfht="15pt" text-align="left" margin-top="20pt" color="#B8860B">12:00</fo:block>
+            <fo:block font-size="10pt" line-heigfht="15pt" text-align="left" margin-top="20pt" color="#F0E68C">Lugar de la ceremonia: La Iglesia del Pilar</fo:block>
+            <fo:block font-size="10pt" line-heigfht="15pt" text-align="left" margin-top="20pt" color="#B8860B">Lugar de la celebración: Hotel Spa Relais y Chateaux A Quinta da Auga</fo:block>
+            <fo:block font-size="10pt" line-heigfht="15pt" text-align="left" margin-top="20pt" color="#F0E68C">Tlf. 6787345087</fo:block>
+        </fo:flow>
+    </fo:page-sequence>
+</foo:root>
